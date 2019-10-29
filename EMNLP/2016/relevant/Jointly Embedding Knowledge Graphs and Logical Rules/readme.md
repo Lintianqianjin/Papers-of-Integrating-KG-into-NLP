@@ -11,5 +11,5 @@ jointly embedding knowledge graphs and logical rules.
 ## Defined Symbol  
 $e_i$: vector of entity $i$  
 $r_k$: vector of relation $k$  
-$(e_i,r_k,e_j)$: when this triple holds, $e_i+r_k \approx e_j$, e.g. $paris+capitalOf = France$  
-$I(e_i,r_k,e_j) = 1- {1} \over {3\sqrt d} ||e_i+r_k-e_j||_1$: Correct probability of this triple.
+$(e_i,r_k,e_j)$: when this triple holds, $e_i+r_k \approx e_j$, e.g. $Paris+CapitalOf = France$  
+$I(e_i,r_k,e_j) = 1- ({1} \over {3 \sqrt d}) ||e_i+r_k-e_j||_1$: correct probability of this triple.
