@@ -19,4 +19,4 @@ $f_1$ and $f_2$ are two formulae.
 $I(f_1 \bigwedge f_2) = I(f_1)\cdot I(f_2)$  
 $I(f_1 \bigvee f_2) = I(f_1) + I(f_2) - I(f_1)\cdot I(f_2)$  
 $I(¬f_1) = 1 - I(f_1)$  
-Thus, correct probability of rules can be computed, e.g. $f_1 \Rightarrow f_2 = ¬f_1\bigvee f_2$
+Thus, correct probability of rules can be computed, e.g., $f_1 \Rightarrow f_2 = ¬f_1\bigvee f_2$, then $I(f_1 \Rightarrow f_2) = I(f_1)\cdot I(f_2) - I(f_1) + 1$
