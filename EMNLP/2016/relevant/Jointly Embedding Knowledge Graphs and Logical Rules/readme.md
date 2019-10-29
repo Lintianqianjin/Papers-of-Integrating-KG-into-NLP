@@ -18,4 +18,4 @@ $I(e_i,r_k,e_j) = 1- \frac{1}{3 \sqrt d} ||e_i+r_k-e_j||_1$: correct probability
 $f_1$ and $f_2$ are two formulae.  
 $I(f_1 \bigwedge f_2) = I(f_1)\cdot I(f_2)$  
 $I(f_1 \bigvee f_2) = I(f_1) + I(f_2) - I(f_1)\cdot I(f_2)$  
-$I(\not f_1) = 1 - I(f_1)$  
+$I(¬f_1) = 1 - I(f_1)$  
