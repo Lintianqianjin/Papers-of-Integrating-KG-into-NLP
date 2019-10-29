@@ -10,4 +10,6 @@ jointly embedding knowledge graphs and logical rules.
 
 ## Defined Symbol  
 $e_i$: vector of entity $i$  
-关键 I的定义，以及rule的定义 负例的定义
+$r_k$: vector of relation $k$  
+$(e_i,r_k,e_j)$: when this triple holds, $e_i+r_k \approx e_j$, e.g. $paris+capitalOf = France$  
+$I(e_i,r_k,e_j) = 1- {1} \over {3\sqrt d} ||e_i+r_k-e_j||_1$: Correct probability of this triple.
