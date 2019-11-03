@@ -8,7 +8,7 @@ This paper leverages a **Bayesian non-parametric infinite mixture model** to han
 ### Chinese Restaurant Process
 
 ## code
-来源 [Niubohan/TransG]!(https://github.com/Niubohan/TransG)  
+来源 [Niubohan/TransG](https://github.com/Niubohan/TransG)  
 代码与论文有些出入，不过整体可以帮助理解。  
 ```python
 import numpy as np
