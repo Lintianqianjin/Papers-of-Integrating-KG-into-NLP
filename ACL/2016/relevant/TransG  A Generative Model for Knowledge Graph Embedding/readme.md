@@ -8,7 +8,7 @@ This paper leverages a **Bayesian non-parametric infinite mixture model** to han
 ### Chinese Restaurant Process
 
 
-'''python
+```python
 # coding:utf-8
 
 import numpy as np
@@ -362,4 +362,4 @@ class TransG:
         plt.axis('off')
         plt.savefig(savepath)
 
-'''
+```
