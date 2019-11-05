@@ -9,3 +9,6 @@ Each edge $e$ of tuple tree has a weight vector $w_e$, which is randomly initial
 #### The classfier details
 The input sentence &x& is transformed to $H$ through an embedding layer $f$ and a hidden layer $g$. And the inner product of $H$ and the weight $w_e$ for specific edge $e$, and then use a logistic regression as the classifier to decide whether the edge $e$ should be chosen.  
 ![edge classifier](https://github.com/Lintianqianjin/Papers-of-Integrating-KG-into-NLP/blob/master/ACL/2016/relevant/Knowledge-Based%20Semantic%20Embedding%20for%20Machine%20Translation/classifier.png)  
+
+## Question
+<font color="#dd0000">The paper said that the method used the semantic tuples as semantic vector which is used in decoder(target genetation), but I don't find how to transform the several tuples extracted to the semantic vector</font><br />  
