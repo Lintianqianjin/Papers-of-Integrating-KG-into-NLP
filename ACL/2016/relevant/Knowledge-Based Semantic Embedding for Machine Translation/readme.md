@@ -11,4 +11,4 @@ The input sentence &x& is transformed to $H$ through an embedding layer $f$ and 
 ![edge classifier](https://github.com/Lintianqianjin/Papers-of-Integrating-KG-into-NLP/blob/master/ACL/2016/relevant/Knowledge-Based%20Semantic%20Embedding%20for%20Machine%20Translation/classifier.png)  
 
 ## Question
-<font color="#dd0000">The paper said that the method used the semantic tuples as semantic vector which is used in decoder(target genetation), but I don't find how to transform the several tuples extracted to the semantic vector</font><br />  
+The paper said that the method used the semantic tuples as semantic vector which is used in decoder(target genetation), but I don't find how to transform the several tuples extracted to the semantic vector.  
