@@ -11,22 +11,15 @@ To incorporate this relational knowledge into word embeddings, this paper enforc
 For $p=2$, this assumption implies that all the difference vectors pertaining to a relation lie in a 2-D plane. For $p=1$, it reduces to $D_k\approx u_kα_k^T$, implying that all the difference vectors for a relation are collinear. This paper set $p=1$.   
 **collinear example**  
 $$
-{\left[
-\begin{matrix}
+{\begin{bmatrix}
 a & b & c
-\end{matrix}
-\right]}^T  
+\end{bmatrix}}^T  
 \cdot 
-\left[
-\begin{matrix}
+\begin{bmatrix}
 x & y & z
-\end{matrix}
-\right] 
-$$
-$$\left[
-\begin{matrix}
+\end{bmatrix} = 
+\begin{bmatrix}
 ax & ay & az \\ bx & by & bz \\ cx & cy & cz 
-\end{matrix}
-\right] 
+\end{bmatrix}
 $$
 
