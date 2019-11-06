@@ -12,3 +12,5 @@
 
 ## AAAI
 [Xie, Ruobing, et al. "Representation learning of knowledge graphs with entity descriptions." *Thirtieth AAAI Conference on Artificial Intelligence.* 2016.](https://github.com/Lintianqianjin/Papers-of-Integrating-KG-into-NLP/tree/master/AAAI/2016/Representation%20Learning%20of%20KG%20with%20Entity%20Descriptions)  
+  
+[Jia, Yantao, et al. "Locally adaptive translation for knowledge graph embedding." *Thirtieth AAAI conference on artificial intelligence.* 2016.](https://github.com/Lintianqianjin/Papers-of-Integrating-KG-into-NLP/tree/master/AAAI/2016/Locally%20Adaptive%20Translation%20for%20KG%20Embedding)  
