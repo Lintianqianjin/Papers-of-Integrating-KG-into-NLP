@@ -22,4 +22,4 @@ x & y & z
 ax & ay & az \\ bx & by & bz \\ cx & cy & cz 
 \end{bmatrix}
 $$  
-To ensure uniqueness of solution for $u_k$ and $α_k$, the paper constrains ${\| \| u_k \| \| }_2 = 1$.  
+To ensure uniqueness of solution for $u_k$ and $α_k$, the paper constrains ${\| \| u_k \| \| }_2 = 1$
