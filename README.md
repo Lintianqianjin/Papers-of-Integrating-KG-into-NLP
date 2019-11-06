@@ -9,3 +9,6 @@
 [Shi, Chen, et al. "Knowledge-based semantic embedding for machine translation." *Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics.* 2016.](https://github.com/Lintianqianjin/Papers-of-Integrating-KG-into-NLP/tree/master/ACL/2016/relevant/Knowledge-Based%20Semantic%20Embedding%20for%20Machine%20Translation)  
   
 [Kumar, Abhishek, and Jun Araki. "Incorporating relational knowledge into word representations using subspace regularization." *Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics.* 2016.](https://github.com/Lintianqianjin/Papers-of-Integrating-KG-into-NLP/tree/master/ACL/2016/relevant/Incorporating%20Relational%20Knowledge%20into%20Word%20Representations)   
+
+## AAAI
+[Xie, Ruobing, et al. "Representation learning of knowledge graphs with entity descriptions." *Thirtieth AAAI Conference on Artificial Intelligence.* 2016.](https://github.com/Lintianqianjin/Papers-of-Integrating-KG-into-NLP/tree/master/AAAI/2016/Representation%20Learning%20of%20KG%20with%20Entity%20Descriptions)  
