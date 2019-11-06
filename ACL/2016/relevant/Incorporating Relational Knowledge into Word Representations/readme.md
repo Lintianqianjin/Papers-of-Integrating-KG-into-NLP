@@ -21,5 +21,5 @@ x & y & z
 \begin{bmatrix}
 ax & ay & az \\ bx & by & bz \\ cx & cy & cz 
 \end{bmatrix}
-$$
+$$  
 
