@@ -6,5 +6,5 @@ This paper proposed a novel formulation for modeling the relational knowledge wh
 ## Subspace-regularized word embedding  
 $R_k = \{\(w_i, r_k, w_j\)\} \forall1 1 \leq k \leq m$, where words $w_i$ and $w_j$ are connected by relation $r_k$ and $R_k$ is the set of all triplets corresponding to relation rk with |Rk| = nk.  
 Let $d_{ij} = \(w_j − w_i\)$ denote the **difference vector** for the triplet $(w_i, r_k, w_j)$ which points from the vector of word $w_i$ to that of word $w_j$. And matrix $D_k$ is stacking the difference vectors corresponding to all the triplets in relation $r_k$, i.e.,  
-$$D_k = \[\cdot\cdot\cdotd_ij\cdot\cdot\cdot\] \forall\{(i,j): \(w_i,r_k,w_j\)\in R_k\}$$.  
-To incorporate this relational knowledge into word embeddings, this paper enforces an approximate low-rank constraint on $D_k$ assuming $D_k\approxU_k{A_k}^T$.
+$$D_k = \[\cdot\cdot\cdot d_ij\cdot\cdot\cdot\] \forall \{(i,j): \(w_i,r_k,w_j\)\in R_k\}$$.  
+To incorporate this relational knowledge into word embeddings, this paper enforces an approximate low-rank constraint on $D_k$ assuming $D_k\approx U_k{A_k}^T$.
