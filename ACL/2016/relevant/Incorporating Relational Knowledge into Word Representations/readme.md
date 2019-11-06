@@ -23,7 +23,7 @@ x & y & z
 \end{matrix}
 \right] 
 $$
-$$= \left[
+$$\left[
 \begin{matrix}
 ax & ay & az \\ bx & by & bz \\ cx & cy & cz 
 \end{matrix}
