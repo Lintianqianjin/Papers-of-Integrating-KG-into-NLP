@@ -24,9 +24,9 @@ x & y & z
 \right] 
 = \left[
 \begin{matrix}
-ax & ay & az \\
-bx & by & bz \\
-cx & cy & cz
+ax & ay & az \\ 
+bx & by & bz \\ 
+cx & cy & cz  
 \end{matrix}
 \right] 
 $$
