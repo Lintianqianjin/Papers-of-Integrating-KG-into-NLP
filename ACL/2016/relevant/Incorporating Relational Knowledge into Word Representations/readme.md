@@ -8,7 +8,7 @@ $R_k = \{\(w_i, r_k, w_j\)\} \forall1 1 \leq k \leq m$, where words $w_i$ and $w
 Let $d_{ij} = \(w_j − w_i\)$ denote the **difference vector** for the triplet $(w_i, r_k, w_j)$ which points from the vector of word $w_i$ to that of word $w_j$. And matrix $D_k$ is stacking the difference vectors corresponding to all the triplets in relation $r_k$, i.e.,  
 $$D_k = \[\cdot\cdot\cdot d_{ij}\cdot\cdot\cdot\] \forall \{(i,j): \(w_i,r_k,w_j\)\in R_k\}$$
 To incorporate this relational knowledge into word embeddings, this paper enforces an approximate low-rank constraint on $D_k$ assuming $D_k\approx U_kA_k^T$, where $U_k$ is a $d×p$ matrix, and $p\ll d$ is the relation basis whose linear span contains all the difference verctors pertainning to relation $r_k$ ($d$ is dimension of embedding vector).  
-For $p=2$, this assumption implies that all the difference vectors pertaining to a relation lie in a 2-D plane. For $p=1$, it reduces to $D_k\approx u_kα_k^T$, implying that all the difference vectors for a relation are collinear. This paper set $p=1$.  
+For $p=2$, this assumption implies that all the difference vectors pertaining to a relation lie in a 2-D plane. For $p=1$, it reduces to $D_k\approx u_kα_k^T$, implying that all the difference vectors for a relation are collinear. This paper set $p=1$.   
 **collinear example**  
 $$
 {\left[
@@ -22,7 +22,8 @@ a & b & c
 x & y & z
 \end{matrix}
 \right] 
-= \left[
+$$
+$$= \left[
 \begin{matrix}
 ax & ay & az \\ bx & by & bz \\ cx & cy & cz 
 \end{matrix}
