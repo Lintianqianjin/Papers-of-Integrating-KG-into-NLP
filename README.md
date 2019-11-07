@@ -14,3 +14,6 @@
 [Xie, Ruobing, et al. "Representation learning of knowledge graphs with entity descriptions." *Thirtieth AAAI Conference on Artificial Intelligence.* 2016.](https://github.com/Lintianqianjin/Papers-of-Integrating-KG-into-NLP/tree/master/AAAI/2016/Representation%20Learning%20of%20KG%20with%20Entity%20Descriptions)  
   
 [Jia, Yantao, et al. "Locally adaptive translation for knowledge graph embedding." *Thirtieth AAAI conference on artificial intelligence.* 2016.](https://github.com/Lintianqianjin/Papers-of-Integrating-KG-into-NLP/tree/master/AAAI/2016/Locally%20Adaptive%20Translation%20for%20KG%20Embedding)  
+
+[Zhang, Yuanzhe, et al. "A joint model for question answering over multiple knowledge bases." *Thirtieth AAAI Conference on Artificial Intelligence.* 2016.](https://github.com/Lintianqianjin/Papers-of-Integrating-KG-into-NLP/tree/master/AAAI/2016/A%20Joint%20Model%20for%20Question%20Answering%20over%20Multiple%20KB)  
+
