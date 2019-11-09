@@ -6,7 +6,6 @@ By regarding each relation as one translation from head entity to tail entity, e
 This paper takes a text corpus as input and attempt to incorporating deep contextual information to the KG. This paper also enable each relation to own different representations for different head and tail entities, which is proved to be helpful to handle the low performance on 1-to-N, N-to-1 and N-to-N relations.  
 
 ## How?
-### Incorporating deep contextual information to the KG
 * *STEP1*: Generating text corpus from the English Wikipedia. For FreeBase, this paper focuses on the Wikipedia inner links and automatically annotate the links as the Freebase entities if the linked Wikipedia entities have the same titles as the Freebase entities, otherwise as the lexical words. For WordNet, this paper ignores the Wikipedia links and annotate the words as the WordNet entities if the words belong to the WordNet synsets. And this paper trains the skip-gram word2vec model on the entity-annotated texts.  
 * *STEP2*: Constructing a co-occurrence network $G = (X , Y)$ based on the entity-annotated text corpus.  $x_i\in X$ denotes the node of the network and corresponds to a word or an entity. $y_{ij}\in Y$ represents the co-occurrence frequency between $x_i$ and $x_j$.  
 * *STEP3*: something are defined as follow:  
@@ -16,5 +15,5 @@ This paper takes a text corpus as input and attempt to incorporating deep contex
 ***pairwise textual context embedding of $x_i$ and $x_j$***: $$\vec n(x_i,x_j) = {1 \over {\sum_{x_k \in n(x_i,x_j)} min(y_{ik},y_{jk})}} \sum_{x_k \in n(x_i,x_j)} min(y_{ik},y_{jk}) \vec x_k$$
 * *STEP4*: the textenhanced entity representations $\hat{h}$ and $\hat{b}$ are defined as the linear transformation of pointwise textual context embeddings of $h$ and $t$, and $h$, $t$ could be viewed as the biased vectors.  
 $$\hat{h} = \vec n(h)A + h,  \hat{t} = \vec n(t)A + t$$where $A$ is a $k × k$ matrix and can be viewed as the weight of the textual contexts.  
-Similarly, the text-enhanced relation representation $\hatr$ is defined as the linear transformation of the pairwise textual context embedding of $h$ and $t$.  
+Similarly, the text-enhanced relation representation $\hat r$ is defined as the linear transformation of the pairwise textual context embedding of $h$ and $t$.  
 $$\hat{r} = \vec n(h,t)B + r$$ where $B$ is a $k × k$ weighting matrix and $r$ could be viewed as the biased vector.  
