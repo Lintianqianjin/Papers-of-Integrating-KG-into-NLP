@@ -21,5 +21,6 @@
 
 ## IJCAI  
 [Wang, Zhigang, and Juan-Zi Li. "Text-Enhanced Representation Learning for Knowledge Graph." *IJCAI.* 2016.](https://github.com/Lintianqianjin/Papers-of-Integrating-KG-into-NLP/tree/master/IJCAI/2016/Text-Enhanced%20Representation%20Learning%20for%20Knowledge%20Graph)  
-[Lin, Yankai, Zhiyuan Liu, and Maosong Sun. "Knowledge Representation Learning with Entities, Attributes and Relations." ethnicity 1: 41-52.](https://github.com/Lintianqianjin/Papers-of-Integrating-KG-into-NLP/tree/master/IJCAI/2016/Representation%20Learning%20with%20Entities%2C%20Attributes%20and%20Relations)  
+
+[Lin, Yankai, Zhiyuan Liu, and Maosong Sun. "Knowledge representation learning with entities, attributes and relations." *ethnicity 1 *(2016): 41-52.](https://github.com/Lintianqianjin/Papers-of-Integrating-KG-into-NLP/tree/master/IJCAI/2016/Representation%20Learning%20with%20Entities%2C%20Attributes%20and%20Relations)  
 
