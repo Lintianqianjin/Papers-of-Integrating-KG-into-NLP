@@ -17,4 +17,8 @@
 
 [Zhang, Yuanzhe, et al. "A joint model for question answering over multiple knowledge bases." *Thirtieth AAAI Conference on Artificial Intelligence.* 2016.](https://github.com/Lintianqianjin/Papers-of-Integrating-KG-into-NLP/tree/master/AAAI/2016/A%20Joint%20Model%20for%20Question%20Answering%20over%20Multiple%20KB)  
 
-[Nickel, Maximilian, Lorenzo Rosasco, and Tomaso Poggio. "Holographic embeddings of knowledge graphs." Thirtieth Aaai conference on artificial intelligence. 2016.](https://github.com/Lintianqianjin/Papers-of-Integrating-KG-into-NLP/tree/master/AAAI/2016/Holographic%20Embeddings%20of%20Knowledge%20Graphs)  
+[Nickel, Maximilian, Lorenzo Rosasco, and Tomaso Poggio. "Holographic embeddings of knowledge graphs." *Thirtieth Aaai conference on artificial intelligence.* 2016.](https://github.com/Lintianqianjin/Papers-of-Integrating-KG-into-NLP/tree/master/AAAI/2016/Holographic%20Embeddings%20of%20Knowledge%20Graphs)  
+
+## IJCAI  
+[Wang, Zhigang, and Juan-Zi Li. "Text-Enhanced Representation Learning for Knowledge Graph." *IJCAI.* 2016.](https://github.com/Lintianqianjin/Papers-of-Integrating-KG-into-NLP/tree/master/IJCAI/2016/Text-Enhanced%20Representation%20Learning%20for%20Knowledge%20Graph)  
+
