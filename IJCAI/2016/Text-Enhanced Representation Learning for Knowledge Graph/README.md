@@ -7,10 +7,12 @@ This paper takes a text corpus as input and attempt to incorporating deep contex
 
 ## How?
 ### Incorporating deep contextual information to the KG
-* STEP1: Generating text corpus from the English Wikipedia. For FreeBase, this paper focuses on the Wikipedia inner links and automatically annotate the links as the Freebase entities if the linked Wikipedia entities have the same titles as the Freebase entities, otherwise as the lexical words. For WordNet, this paper ignores the Wikipedia links and annotate the words as the WordNet entities if the words belong to the WordNet synsets. And this paper trains the skip-gram word2vec model on the entity-annotated texts.  
-* STEP2: Constructing a co-occurrence network $G = (X , Y)$ based on the entity-annotated text corpus.  $x_i\in X$ denotes the node of the network and corresponds to a word or an entity. $y_{ij}\in Y$ represents the co-occurrence frequency between $x_i$ and $x_j$.  
-* STEP3: something are defined as follow:  
+* *STEP1*: Generating text corpus from the English Wikipedia. For FreeBase, this paper focuses on the Wikipedia inner links and automatically annotate the links as the Freebase entities if the linked Wikipedia entities have the same titles as the Freebase entities, otherwise as the lexical words. For WordNet, this paper ignores the Wikipedia links and annotate the words as the WordNet entities if the words belong to the WordNet synsets. And this paper trains the skip-gram word2vec model on the entity-annotated texts.  
+* *STEP2*: Constructing a co-occurrence network $G = (X , Y)$ based on the entity-annotated text corpus.  $x_i\in X$ denotes the node of the network and corresponds to a word or an entity. $y_{ij}\in Y$ represents the co-occurrence frequency between $x_i$ and $x_j$.  
+* *STEP3*: something are defined as follow:  
 ***pointwise textual context***: $n(x_i) = \{ x_j | y_{ij} > \theta \} $, where $\theta$ is the threshold and the neighboring nodes whose co-occurrence frequencies are lower than  $\theta$ are filtered.  
 ***pairwise textual context***: $n(x_i, x_j) = \{ x_k|x_k \in n(x_i) \bigcap n(x_j) \} $  
 ***pointwise textual context embedding***: $$\vec n(x_i) = {1 \over {\sum_{x_j \in n(x_i)} y_{ij}}} \sum_{x_j \in n(x_i)} y_{ij} \vec x_j$$
 ***pairwise textual context embedding of $x_i$ and $x_j$***: $$\vec n(x_i,x_j) = {1 \over {\sum_{x_k \in n(x_i,x_j)} min(y_{ik},y_{jk})}} \sum_{x_k \in n(x_i,x_j)} min(y_{ik},y_{jk}) \vec x_k$$
+* *STEP4*: the textenhanced entity representations $\hat{h}$ and $\hat{b}$ are defined as the linear transformation of pointwise textual context embeddings of $h$ and $t$, and $h$, $t$ could be viewed as the biased vectors.  
+$$\hat{h} = \vec n(h)A + h, \hat{t} = \vec n(t)A + t$$where $A$ is a $k × k$ matrix and can be viewed as the weight of the textual contexts.  
