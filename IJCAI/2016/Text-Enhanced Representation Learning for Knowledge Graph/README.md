@@ -15,4 +15,6 @@ This paper takes a text corpus as input and attempt to incorporating deep contex
 ***pointwise textual context embedding***: $$\vec n(x_i) = {1 \over {\sum_{x_j \in n(x_i)} y_{ij}}} \sum_{x_j \in n(x_i)} y_{ij} \vec x_j$$
 ***pairwise textual context embedding of $x_i$ and $x_j$***: $$\vec n(x_i,x_j) = {1 \over {\sum_{x_k \in n(x_i,x_j)} min(y_{ik},y_{jk})}} \sum_{x_k \in n(x_i,x_j)} min(y_{ik},y_{jk}) \vec x_k$$
 * *STEP4*: the textenhanced entity representations $\hat{h}$ and $\hat{b}$ are defined as the linear transformation of pointwise textual context embeddings of $h$ and $t$, and $h$, $t$ could be viewed as the biased vectors.  
-$$\hat{h} = \vec n(h)A + h, \hat{t} = \vec n(t)A + t$$where $A$ is a $k × k$ matrix and can be viewed as the weight of the textual contexts.  
+$$\hat{h} = \vec n(h)A + h,  \hat{t} = \vec n(t)A + t$$where $A$ is a $k × k$ matrix and can be viewed as the weight of the textual contexts.  
+Similarly, the text-enhanced relation representation $\hatr$ is defined as the linear transformation of the pairwise textual context embedding of $h$ and $t$.  
+$$\hat{r} = \vec n(h,t)B + r$$ where $B$ is a $k × k$ weighting matrix and $r$ could be viewed as the biased vector.  
