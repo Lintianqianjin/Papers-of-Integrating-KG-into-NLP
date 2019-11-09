@@ -13,3 +13,4 @@ This paper takes a text corpus as input and attempt to incorporating deep contex
 ***pointwise textual context***: $n(x_i) = \{ x_j | y_{ij} > \theta \} $, where $\theta$ is the threshold and the neighboring nodes whose co-occurrence frequencies are lower than  $\theta$ are filtered.  
 ***pairwise textual context***: $n(x_i, x_j) = \{ x_k|x_k \in n(x_i) \bigcap n(x_j) \} $  
 ***pointwise textual context embedding***: $$\vec n(x_i) = {1 \over {\sum_{x_j \in n(x_i)} y_{ij}}} \sum_{x_j \in n(x_i)} y_{ij} \vec x_j$$
+***pairwise textual context embedding of $x_i$ and $x_j$***: $$\vec n(x_i,x_j) = {1 \over {\sum_{x_k \in n(x_i,x_j)} min(y_{ik},y_{jk})}} \sum_{x_k \in n(x_i,x_j)} min(y_{ik},y_{jk}) \vec x_k$$
