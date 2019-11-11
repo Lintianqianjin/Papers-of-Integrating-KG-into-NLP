@@ -17,3 +17,5 @@ where $\beta_i$ is the corresponding weight of $c^{(i)}$, and this paper designs
 
 Then, $M_{rh}$ and $M_{rt}$ are defined as follow:
 $$M_{rh} = {{\sum_{i=1}^n \alpha_i M_{c_i}}\over {\sum_{i=1}^n \alpha_i}},$$ where $\alpha_i = 1$ when $c_i\in C_{rh}$ and $\alpha_i = 0$ when $c_i\notin C_{rh}$. $C_{rh}$ represents the type set of head in relation $r$ given by the relation-specific type information. In my opinion, $\| C_{rh}\| = 1$ in most cases.  
+
+Finally, ***$E(h,r,t) = \| \|M_{rh}h + r - M_{rt}t\| \|$***.
