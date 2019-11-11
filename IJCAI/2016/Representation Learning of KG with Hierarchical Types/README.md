@@ -12,4 +12,5 @@ Projection matrix for type $c$, denoted by $M_c$, can be constructed in two ways
 $$M_c = \prod_{i=1}^m M_{c^{(i)}} = M_{c^{(1)}}M_{c^{(2)}}...M_{c^{(m)}}$$
 where $m$ is the number of layers for type $c$ in the hierarchical structure, while $M_{c^{(i)}}$ represents the projection matrix of the *i*-th sub-type $c^(i)$.  
 #### Weighted Hierarchy Encoder
-$$M_c = \sum_{i=1}^m \beta_i M_{c^{(i)}} = M_{c^{(1)}}M_{c^{(2)}}...M_{c^{(m)}}$$
+$$M_c = \sum_{i=1}^m \beta_i M_{c^{(i)}} = \beta_1 M_{c^{(1)}} + \beta_2 M_{c^{(2)}} +...+ \beta_m M_{c^{(m)}}$$
+where $\beta_i$ is the corresponding weight of $c^{(i)}$, and this paper designs a proportional-declined weighting strategy between $c^{(i)}$ and $c^{(i+1)}$ as follows:$$\beta_i : \beta_{i+1} = 1-\eta : \eta , \sum_{i=1}^m \beta_i = 1, \eta \in (0,0.5).$$ The strategy indicates that the more precise sub-type $c^{(i)}$ is, the higher weight $\beta_i$ will be, thus the greater influence $c^{(i)}$ will have on $M_c$.  
