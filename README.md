@@ -26,3 +26,5 @@
 
 [Xie, Ruobing, Zhiyuan Liu, and Maosong Sun. "Representation Learning of Knowledge Graphs with Hierarchical Types." *IJCAI.* 2016.](https://github.com/Lintianqianjin/Papers-of-Integrating-KG-into-NLP/tree/master/IJCAI/2016/Representation%20Learning%20of%20KG%20with%20Hierarchical%20Types)  
 
+[Wen, Jianfeng, et al. "On the representation and embedding of knowledge bases beyond binary relations." *IJCAI.* 2016.](https://github.com/Lintianqianjin/Papers-of-Integrating-KG-into-NLP/tree/master/IJCAI/2016/Representation%20of%20KB%20Beyond%20Binary%20Relations)  
+
