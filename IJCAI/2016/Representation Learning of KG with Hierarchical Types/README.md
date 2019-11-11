@@ -16,4 +16,4 @@ $$M_c = \sum_{i=1}^m \beta_i M_{c^{(i)}} = \beta_1 M_{c^{(1)}} + \beta_2 M_{c^{(
 where $\beta_i$ is the corresponding weight of $c^{(i)}$, and this paper designs a proportional-declined weighting strategy between $c^{(i)}$ and $c^{(i+1)}$ as follows:$$\beta_i : \beta_{i+1} = 1-\eta : \eta , \sum_{i=1}^m \beta_i = 1, \eta \in (0,0.5).$$ The strategy indicates that the more precise sub-type $c^{(i)}$ is, the higher weight $\beta_i$ will be, thus the greater influence $c^{(i)}$ will have on $M_c$.  
 
 Then, $M_{rh}$ and $M_{rt}$ are defined as follow:
-$$M_{rh} = {\sum_{i=1}^n \alpha_i M_{c_i}}\over {\sum_{i=1}^n \alpha_i}, \alpha_i = \begin{cases} 1& \text{c_i \in C_{rh}} \\ 0& \text{c_i \notin C_{rh}}\end{cases}$$
+$$M_{rh} = {{\sum_{i=1}^n \alpha_i M_{c_i}}\over {\sum_{i=1}^n \alpha_i}}, \alpha_i = \begin{cases} 1& \text{c_i \in C_{rh}} \\ 0& \text{c_i \notin C_{rh}}\end{cases}$$
